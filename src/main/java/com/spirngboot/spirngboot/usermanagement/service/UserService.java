@@ -5,4 +5,6 @@ import com.spirngboot.spirngboot.usermanagement.dto.UserDto;
 public interface UserService {
 
     UserDto createUser(UserDto userDto);
+
+    UserDto getUserById(Long id);
 }
